@@ -1,5 +1,5 @@
 import React from 'react'
-import { MsgSendIcon, MsgComposerLetfIcon, MsgEmojiIcon, MsgStickerIcon, MsgGifIcon, MsgAttachDoc } from '../assets/SvgIcons'
+import { MsgSendIcon, MsgComposerLetfIcon, MsgEmojiIcon, MsgStickerIcon, MsgGifIcon, MsgSentIcon } from '../assets/SvgIcons'
 
 const MsgrComposer = () => {
     return (
@@ -16,7 +16,7 @@ const MsgrComposer = () => {
                     />
                 </div>
                 <div className='flex pr-1'>
-                    <MsgSendIcon />
+                    <MsgSentIcon />
                 </div>
             </div>
         </div>

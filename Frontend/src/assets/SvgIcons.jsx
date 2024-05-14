@@ -3,6 +3,13 @@ export const SearchIcon = ({ width }) => (
     <circle cx="11.7659" cy="11.7664" r="8.98856" stroke="#7C8493" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     <path d="M18.0176 18.4849L21.5416 21.9997" stroke="#7C8493" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
+)
+
+export const SearchIcon02 = () => (
+  <svg className="w-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.5 25C20.299 25 25 20.299 25 14.5C25 8.70101 20.299 4 14.5 4C8.70101 4 4 8.70101 4 14.5C4 20.299 8.70101 25 14.5 25Z" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M21.9248 21.925L27.9998 28" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
 
 )
 
@@ -24,8 +31,19 @@ export const MsgOptionsIcons = () => (
 
 export const MsgSendIcon = () => (
   <svg className="w-6" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.16602 3V18L18.8327 10.5L2.16602 3ZM3.83268 12.1667L11.3327 10.5L3.83268 8.83333V5.575L14.7743 10.5L3.83268 15.425V12.1667Z" fill="#50C878" />
+    <path d="M2.16602 3V18L18.8327 10.5L2.16602 3ZM3.83268 12.1667L11.3327 10.5L3.83268 8.83333V5.575L14.7743 10.5L3.83268 15.425V12.1667Z"
+      fill="#50C878" />
   </svg>
+)
+
+export const MsgSentIcon = () => (
+  <svg className="w-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M27.4379 15.125L6.32536 3.29998C6.14752 3.20174 5.94398 3.15999 5.74182 3.1803C5.53967 3.20062 5.3485 3.28202 5.19376 3.41368C5.03902 3.54535 4.92806 3.72102 4.87565 3.91731C4.82323 4.11361 4.83185 4.32121 4.90036 4.51248L8.87536 15.6625C8.96293 15.879 8.96293 16.121 8.87536 16.3375L4.90036 27.4875C4.83185 27.6788 4.82323 27.8864 4.87565 28.0827C4.92806 28.2789 5.03902 28.4546 5.19376 28.5863C5.3485 28.7179 5.53967 28.7994 5.74182 28.8197C5.94398 28.84 6.14752 28.7982 6.32536 28.7L27.4379 16.875C27.5942 16.7885 27.7244 16.6617 27.8152 16.5079C27.9059 16.354 27.9537 16.1786 27.9537 16C27.9537 15.8214 27.9059 15.646 27.8152 15.4921C27.7244 15.3382 27.5942 15.2115 27.4379 15.125V15.125Z"
+      stroke="#50C878" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M9 16H17" stroke="#50C878" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+
+
 )
 
 export const MsgComposerLetfIcon = () => (
@@ -66,6 +84,18 @@ export const MsgAttachDoc = () => (
         <rect width="24" height="24" fill="white" transform="translate(0.5)" />
       </clipPath>
     </defs>
+  </svg>
+
+)
+
+export const TranslateIcon = () => (
+  <svg className='w-6' viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M29 27L22 13L15 27" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17 23H27" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M11 4V7" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3 7H19" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M15 7C15 10.1826 13.7357 13.2348 11.4853 15.4853C9.23484 17.7357 6.1826 19 3 19" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M8.08789 12C9.04677 14.0883 10.5845 15.8578 12.5187 17.0985C14.4529 18.3393 16.7024 18.9992 19.0004 19" stroke="#49536E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
 
 )

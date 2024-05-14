@@ -1,5 +1,5 @@
 import React from 'react'
-import { MsgOptionsIcons } from '../assets/SvgIcons'
+import { MsgOptionsIcons, TranslateIcon, SearchIcon, SearchIcon02 } from '../assets/SvgIcons'
 
 const MsgrHeader = () => {
   return (
@@ -11,11 +11,15 @@ const MsgrHeader = () => {
           className="shrink-0 my-auto w-12 aspect-square"
         />
         <div className=''>
-        <h1 className='text-xl text-white'>Sunny</h1>
-        <span className='text-xs text-gray-500'>Last seen 4 mins ago</span>
+          <h1 className='text-xl text-white'>Sunny</h1>
+          <span className='text-xs text-gray-500'>Last seen 4 mins ago</span>
         </div>
       </div>
-      <div><MsgOptionsIcons/></div>
+      <div className='flex gap-4'>
+        {/* <div><SearchIcon width={5} /></div> */}
+        <div><SearchIcon02 /></div>
+        <div><TranslateIcon /></div>
+      </div>
     </div>
   )
 }
